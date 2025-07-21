@@ -1,0 +1,12 @@
+Scenario 1: Basic Search
+Given the user is on the Google search page
+When user enters "Cognizant" in search box
+And clicks the search button
+Then search results should be displayed
+And results should be relevant to the search query
+
+Scenario 2: Advanced Search
+Given user is on search results page
+When user clicks on Tools
+And selects a time filter
+Then results should be filtered by selected time period

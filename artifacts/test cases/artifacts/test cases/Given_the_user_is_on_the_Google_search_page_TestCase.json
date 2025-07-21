@@ -1,0 +1,43 @@
+{
+  "id": "TC_1752917441815_0",
+  "title": "Given the user is on the Google search page",
+  "description": "Test case to verify: Given the user is on the Google search page",
+  "type": "Functional",
+  "priority": "High",
+  "status": "Draft",
+  "requirementId": "REQ_1752917441075",
+  "prerequisites": "the user is on the Google search page",
+  "steps": [
+    {
+      "number": 1,
+      "description": "Given the user is on the Google search page",
+      "expectedResult": "Prerequisite condition is met"
+    },
+    {
+      "number": 2,
+      "description": "user enters \"Cognizant\" in search box",
+      "expectedResult": "Action is performed successfully"
+    },
+    {
+      "number": 3,
+      "description": "And clicks the search button",
+      "expectedResult": ""
+    },
+    {
+      "number": 4,
+      "description": "search results should be displayed",
+      "expectedResult": "search results should be displayed"
+    },
+    {
+      "number": 5,
+      "description": "And results should be relevant to the search query",
+      "expectedResult": ""
+    },
+    {
+      "number": 6,
+      "description": "Scenario 2: Advanced Search",
+      "expectedResult": ""
+    }
+  ],
+  "expectedResults": "search results should be displayed\nAnd results should be relevant to the search query"
+}
